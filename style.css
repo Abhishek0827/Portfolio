@@ -265,7 +265,7 @@ header #left h1 {
 }
 
 #third > #ProjectCards {
-  border: 1px solid var(--line);
+  /* border: 1px solid var(--line); */
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
