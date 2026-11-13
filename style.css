@@ -594,3 +594,90 @@ footer span {
   color: var(--muted);
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  body > main > section {
+    width: 95%;
+  }
+  header {
+    width: 90%;
+    padding: 10px 0px;
+    border: 1px solid;
+  }
+  header #middle {
+    display: none;
+  }
+  #first {
+    padding: 50px 0px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  #first .left {
+    gap: 20px;
+  }
+  #first .left .one span {
+    width: 20px;
+  }
+  #first .left .two h2 {
+    font-size: 50px;
+  }
+  #second > ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  #third {
+    padding: 50px 0px;
+  }
+  #third > .upper {
+    flex-direction: column;
+    align-items: start;
+  }
+  #third > .upper h1 {
+    font-size: 50px;
+  }
+  #fourth {
+    padding: 50px 0px;
+  }
+  #fourth > .upper {
+    gap: 50px;
+  }
+
+  #fourth > .upper > .left h1 {
+    font-size: 50px;
+  }
+  #fourth > .lower > .experience {
+    flex-direction: column;
+  }
+  #fourth > .lower > .experience > div:first-child,
+  #fourth > .lower > .experience > div:last-child {
+    width: 100%;
+  }
+  #fifth {
+    flex-direction: column;
+  }
+  #fifth > div {
+    width: 100%;
+  }
+  #fifth > .left > h1,
+  #fifth > .left > h1 > span {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  #sixth > .container {
+    flex-direction: column;
+    align-items: start;
+    width: 95%;
+    gap: 20px;
+  }
+  #sixth > .container > .left > h2,
+  #sixth > .container > .left > h2 > span {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  #sixth > .container > .left > a {
+    margin-top: 0px;
+  }
+  footer{
+    padding: 15px 0px;
+  }
+}
