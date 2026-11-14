@@ -594,7 +594,7 @@ footer span {
   color: var(--muted);
   text-align: center;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 950px) {
   body > main > section {
     width: 95%;
   }
